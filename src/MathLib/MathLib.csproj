@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>MathLib</PackageId>
+    <Title>Advanced Math Library</Title>
+    <Version>1.0.0</Version>
+    <Authors>Math Library Team</Authors>
+    <Description>A comprehensive mathematical library providing standard mathematical functions, statistics, linear algebra, and numerical methods.</Description>
+    <PackageTags>math;mathematics;statistics;algebra;numerical;functions</PackageTags>
+    <RepositoryUrl>https://github.com/mathlib/mathlib</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Numerics.Vectors" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
