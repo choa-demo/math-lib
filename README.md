@@ -1,6 +1,6 @@
 # MathLib - Comprehensive .NET Mathematical Library
 
-A comprehensive mathematical library for .NET 8.0 providing standard mathematical functions, statistics, linear algebra, and numerical methods.
+A comprehensive mathematical library for .NET 8.0 providing standard mathematical functions, statistics, linear algebra, and numerical methods. Small changes
 
 ## Features
 
