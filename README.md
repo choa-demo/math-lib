@@ -7,7 +7,7 @@ A comprehensive mathematical library for .NET 8.0 providing standard mathematica
 ### 🔢 Basic Math Operations
 - Absolute value, min/max, rounding, ceiling, floor
 - Clamping, sign detection, truncation
-- All standard mathematical operations
+- All standard mathematical operations, some small changes in readme file.
 
 ### 🚀 Advanced Mathematics  
 - Power functions (power, square root, cube root, nth root)
