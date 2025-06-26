@@ -1,13 +1,13 @@
 # MathLib - Comprehensive .NET Mathematical Library
 
-A comprehensive mathematical library for .NET 8.0 providing standard mathematical functions, statistics, linear algebra, and numerical methods.
+A comprehensive mathematical library for .NET 8.0 providing standard mathematical functions, statistics, linear algebra, and numerical methods. Small changes
 
 ## Features
 
 ### 🔢 Basic Math Operations
 - Absolute value, min/max, rounding, ceiling, floor
 - Clamping, sign detection, truncation
-- All standard mathematical operations
+- All standard mathematical operations, some small changes in readme file.
 
 ### 🚀 Advanced Mathematics  
 - Power functions (power, square root, cube root, nth root)
