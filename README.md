@@ -47,6 +47,31 @@ A comprehensive mathematical library for .NET 8.0 providing standard mathematica
 
 ## Installation
 
+### From GitHub Packages
+
+To install MathLib from GitHub Packages, you can use our setup scripts:
+
+**Windows**: Run `scripts/setup-github-packages.bat`  
+**Linux/Mac**: Run `scripts/setup-github-packages.sh`
+
+Or configure manually:
+
+```bash
+# Add GitHub Packages source (replace USERNAME with your GitHub username)
+dotnet nuget add source https://nuget.pkg.github.com/USERNAME/index.json \
+  --name "github" \
+  --username "USERNAME" \
+  --password "YOUR_GITHUB_TOKEN"
+```
+
+Then install the package:
+
+```bash
+dotnet add package MathLib
+```
+
+### From Package Reference
+
 Add the MathLib project reference to your solution:
 
 ```xml

@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib", "src\MathLib\Math
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib.Tests", "tests\MathLib.Tests\MathLib.Tests.csproj", "{7B3B8F2D-5C6D-4E4F-AF8B-3C9D2F7E8B4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib.Examples", "examples\MathLib.Examples\MathLib.Examples.csproj", "{9C4C9G3E-6D7E-5F5G-BG9C-4D0E3G8F9C5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib.Examples", "examples\MathLib.Examples\MathLib.Examples.csproj", "{B0684B8E-FFBF-49E7-B5C7-22977C79399F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,9 +22,15 @@ Global
 		{7B3B8F2D-5C6D-4E4F-AF8B-3C9D2F7E8B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B3B8F2D-5C6D-4E4F-AF8B-3C9D2F7E8B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B3B8F2D-5C6D-4E4F-AF8B-3C9D2F7E8B4A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C4C9G3E-6D7E-5F5G-BG9C-4D0E3G8F9C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C4C9G3E-6D7E-5F5G-BG9C-4D0E3G8F9C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C4C9G3E-6D7E-5F5G-BG9C-4D0E3G8F9C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C4C9G3E-6D7E-5F5G-BG9C-4D0E3G8F9C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0684B8E-FFBF-49E7-B5C7-22977C79399F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0684B8E-FFBF-49E7-B5C7-22977C79399F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0684B8E-FFBF-49E7-B5C7-22977C79399F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0684B8E-FFBF-49E7-B5C7-22977C79399F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDC1A132-E8CE-4E2C-901A-592D5CEA83B9}
 	EndGlobalSection
 EndGlobal
