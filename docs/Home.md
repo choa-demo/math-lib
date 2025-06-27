@@ -2,6 +2,7 @@
 
 [![.NET Version](https://img.shields.io/badge/.NET-8.0-blue)](https://dotnet.microsoft.com/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Security Policy](https://img.shields.io/badge/security-policy-brightgreen)](../SECURITY.md)
 [![Tests](https://img.shields.io/badge/tests-53%20passing-brightgreen)](#testing)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](#testing)
 
@@ -18,6 +19,7 @@
 - [📊 Examples](#-examples)
 - [🧪 Testing](#-testing)
 - [⚡ Performance](#-performance)
+- [🔒 Security](#-security)
 - [🤝 Contributing](#-contributing)
 - [📚 Mathematical References](#-mathematical-references)
 
@@ -394,6 +396,44 @@ dotnet test --filter "ClassName=StatisticsTests"
 
 ---
 
+## 🔒 Security
+
+### Security Policy
+MathLib takes security seriously. We follow industry best practices for secure mathematical computations.
+
+#### Reporting Vulnerabilities
+- **Security Issues**: Report via our [Security Policy](../SECURITY.md)
+- **General Bugs**: Use GitHub Issues for non-security bugs
+
+#### Security Features
+- **Input Validation**: All public methods validate parameters
+- **Numerical Stability**: Algorithms tested for edge cases and precision limits
+- **Error Handling**: Comprehensive exception handling prevents crashes
+- **Memory Safety**: Pure managed code implementation
+
+#### Best Practices for Users
+```csharp
+// Always validate inputs for numerical methods
+if (double.IsNaN(input) || double.IsInfinity(input))
+{
+    throw new ArgumentException("Invalid input value");
+}
+
+// Use appropriate tolerance for floating-point comparisons
+const double tolerance = 1e-10;
+if (Math.Abs(result - expected) < tolerance)
+{
+    // Values are considered equal
+}
+```
+
+#### Security Considerations
+- **Precision Limits**: Be aware of IEEE 754 floating-point limitations
+- **Convergence**: Iterative methods include maximum iteration limits
+- **Resource Usage**: Algorithms designed to prevent excessive memory/CPU usage
+
+---
+
 ## 🤝 Contributing
 
 ### Development Setup
@@ -460,7 +500,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [📁 Source Code](src/MathLib/)
 - [🧪 Tests](tests/MathLib.Tests/)
 - [📋 Examples](examples/MathLib.Examples/)
-- [📝 Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md)
+- [� Security Policy](../SECURITY.md)
+- [�📝 Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md)
 - [📊 Changelog](CHANGELOG.md)
 
 ---

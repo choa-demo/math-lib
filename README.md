@@ -1,5 +1,10 @@
 # MathLib - Comprehensive .NET Mathematical Library
 
+[![.NET Version](https://img.shields.io/badge/.NET-8.0-blue)](https://dotnet.microsoft.com/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Security Policy](https://img.shields.io/badge/security-policy-brightgreen)](SECURITY.md)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen)](#testing)
+
 A comprehensive mathematical library for .NET 8.0 providing standard mathematical functions, statistics, linear algebra, and numerical methods. Small changes
 
 ## Features
@@ -244,6 +249,15 @@ MIT License - see LICENSE file for details.
 3. Add tests for new functionality  
 4. Ensure all tests pass
 5. Submit a pull request
+
+Please see our [Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md) for detailed contribution guidelines.
+
+## Security
+
+Security is important to us. If you discover a security vulnerability, please report it responsibly:
+
+- **For security issues**: See our [Security Policy](SECURITY.md)
+- **For general bugs**: Use [GitHub Issues](../../issues)
 
 ## Examples
 
